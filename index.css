@@ -1,0 +1,242 @@
+
+
+/* --------- ****************** --------- */
+
+*{
+    font-style: #ffffff;
+    box-sizing: border-box;
+    justify-content: center;
+    margin: 0;
+    
+    
+}
+
+p{
+  font-size : 50%  
+}
+
+h1{
+  font-size : 3vw
+}
+
+img {
+width: 100%; 
+    height: auto;
+}
+
+li{
+    font-size: 1rem;
+    padding: 0.5rem;
+    justify-content: center;
+}
+
+ul{
+    padding: 0px;
+}
+
+.top{
+    color: white;
+}
+
+body { background: #000000;
+ opacity:0;
+ transition: opacity 2s;}
+
+body, html { height: 100%; }
+
+a { text-decoration: none; color: white; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; color: rgba( 255, 255, 255, 0.5); }
+a:focus { text-decoration: none; }
+a:hover, a:active { text-decoration: none; }
+
+li{ list-style: none; 
+padding-left: 0px;}
+
+img { max-width: 100%; height: auto; }
+
+/* --------- ****************** --------- */
+
+/* --------- header --------- */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1%;
+  padding: 2rem;
+  color: white;
+  display: flex;
+  text-align: none
+  justify-content: space-between;
+  align-items: center;
+  word-spacing: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+ 
+}
+
+/* --------- article --------- */
+
+article {
+  margin: 0 auto;
+  height: 600px;
+  padding: 2rem;
+  text-align: center;
+  font-size: 2.3rem;
+}
+
+/* --------- section --------- */
+
+#__basic_box__{
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  background-color: white;
+}
+
+#__Recent_Post__{
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  background-color: white;
+}
+
+#__Post_box__ p { 
+    padding: 0;
+    border:  1px solid #dddddd; }
+
+#__box__{
+  top:0;
+  display: flex;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+#__Story__{
+  text-align: center;
+  background-color:  #1d488e;
+  font-style: italic;
+  display: flex;
+}
+
+#__UpdateLog__{
+  text-align: center;
+  background-color:  white;
+  font-size: 2em;
+  padding: 2rem;
+  display: flex;
+}
+
+#__Download__{
+  height: auto;
+  text-align: center;
+  background-color:  #1d44a5;
+  display: flex;
+  padding: 0px;
+}
+
+#__info__{
+    text-align: center;
+    background-color: white;
+    display: flex;
+    padding: 4rem;
+    
+}
+#__menu__{
+    margin: 0;
+    width: 100%;
+    height: 136px;
+    text-align: center;
+    
+}
+
+#__menu_box__{
+  margin: 0 auto;
+  text-align: center;
+}
+
+#__menu_box__ ul li{
+    float: left;
+    width: 33.33%;
+    line-height: 300%;
+    font-size: 300%;
+    font-weight: bold;
+}
+#__menu_box__ ul { padding: 0px; }
+#__menu_box__ ul li a{ display: block;}
+#__menu_box__ ul li a:hover{ background-color: rgba( 255, 255, 255, 0.1 ); }
+}
+
+#__left__{
+    float: left;
+    padding: 0;
+    margin-right: 10%;
+    font-size: 15px;
+}
+
+#__right__{
+    float: right;
+    text-align: left;
+    margin-left: 10%;
+}
+
+#__right__ span { font-weight: bold; }
+
+
+/* --------- menu_box --------- */
+
+
+#navbar-nav {
+            font-size: 100%;
+            text-align: center;
+            height: 0%;
+            line-height: 0%;
+            color: black;
+        }
+
+
+/* --------- footer --------- */
+
+footer {
+
+  height: auto;
+  padding: 0.7rem;
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
+  margin: 0 auto;
+  align-items: center;
+  background-color: #052D71;
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
